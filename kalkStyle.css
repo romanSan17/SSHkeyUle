@@ -1,16 +1,17 @@
-#kalk1{
+#kalk1 {
     border: solid 1px gray;
     padding: 10px;
     margin: 10px;
     width: 30%;
     background-color: lightgray;
 }
-div#kalk1 h2{
+
+div#kalk1 h2 {
     font-variant: small-caps;
     font-family: verdana;
 }
 
-#kalk2{
+#kalk2 {
     border: solid 2px gray;
     padding: 10px;
     margin: 10px;
@@ -18,12 +19,12 @@ div#kalk1 h2{
     background-color: lightblue;
 }
 
-div#kalk2 h2{
+div#kalk2 h2 {
     font-variant: small-caps;
     font-family: verdana;
 }
 
-#kalk3{
+#kalk3 {
     border: solid 3px yellowgreen;
     padding: 10px;
     margin: 10px;
@@ -31,10 +32,45 @@ div#kalk2 h2{
     background-color: bisque;
 }
 
-#kalk4{
+#kalk4 {
     border: solid 3px bisque;
     padding: 10px;
     margin: 10px;
     width: 20%;
     background-color: yellowgreen;
+}
+
+#random-pilt {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #f4f4f4;
+}
+
+h2 {
+    text-align: center;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
 }
