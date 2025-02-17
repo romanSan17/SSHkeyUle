@@ -28,9 +28,9 @@ function saiaKalk() {
 
 function juhuslikPilt() {
     const pildid = [
-        'pildid/pilt1.png',
-        'pildid/pilt2.png',
-        'pildid/pilt3.png'
+        'pildid/forest.jpg',
+        "pildid/mountains.jpeg",
+        'pildid/beach.jpg'
     ];
     const juhuslikPilt = Math.floor(Math.random() * pildid.length);
 
