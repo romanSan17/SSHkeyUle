@@ -87,6 +87,14 @@ function Temperature() {
         result1.innerHTML = "Palun valige kehtiv süsteem!";
         result1.style.color = "red";
     }
+
+    if (temperature < 0) {
+        result1.style.color = "blue";
+    } else if (temperature > 30) {
+        result1.style.color = "red";
+    } else {
+        result1.style.color = "black";
+    }
 }
 
 function calculateBMI() {
