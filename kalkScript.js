@@ -5,6 +5,7 @@ function saiaKalk() {
     const mooniHind = 1.20;
     const ponstikHind = 2.00;
     const kaneeliHind = 1.50;
+    const baguetteHind = 2.40;
 
     let saiatyyp = document.getElementById("saiatyyp");
 
@@ -24,13 +25,18 @@ function saiaKalk() {
     if (saiatyyp.selectedIndex === 3) {
         vastus.innerHTML = kaneeliHind * k.value + '€';
     }
+    if (saiatyyp.selectedIndex === 4) {
+        vastus.innerHTML = baguetteHind * k.value + '€';
+    }
 }
 
 function juhuslikPilt() {
     const pildid = [
-        'pildid/pilt1.png',
-        'pildid/pilt2.png',
-        'pildid/pilt3.png'
+        'pildid/pilt1.jpg',
+        'pildid/pilt2.jpg',
+        'pildid/pilt3.jpg',
+        'pildid/pilt4.jpg',
+        'pildid/pilt5.jpg'
     ];
     const juhuslikPilt = Math.floor(Math.random() * pildid.length);
 
